@@ -1,22 +1,3 @@
-﻿Shader "Tilt Five/Simple Blend Shader"
-{
-	Properties
-	{
-		_MainTex ("Texture", 2D) = "black" {}
-	}
-    
-	SubShader {
-        Tags {"Queue"="Transparent" "RenderType"="Transparent" }
-        LOD 100
-
-        ZWrite Off
-        Cull Off
-        
-        Blend SrcAlpha OneMinusSrcAlpha
-             
-        Pass {
-            SetTexture [_MainTex] { combine texture }
-        }
-    }
-    FallBack "Diffuse"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6056962f493911cc2725af4d57fa0cececc087670e6b0a465efca7cf54625c2
+size 433
