@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MulletScript : MonoBehaviour
 {
+    /*
     [SerializeField] Rigidbody _ballRb;
 
     [SerializeField] float _force;
@@ -24,5 +25,5 @@ public class MulletScript : MonoBehaviour
            
         }
     }
-
+    */
 }

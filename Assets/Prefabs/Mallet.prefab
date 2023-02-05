@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8761837378974769496}
   - component: {fileID: 8761837378974769477}
   - component: {fileID: 8761837378974769498}
-  - component: {fileID: 8761837378974769499}
   m_Layer: 0
   m_Name: MalletHeadSide (1)
   m_TagString: Untagged
@@ -84,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &8761837378974769499
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8761837378974769497}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &8761837379047725225
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,7 +94,7 @@ GameObject:
   - component: {fileID: 8761837379047725224}
   - component: {fileID: 8761837379047725141}
   - component: {fileID: 8761837379047725226}
-  - component: {fileID: 8761837379047725227}
+  - component: {fileID: 5566341556783891901}
   m_Layer: 0
   m_Name: MalletHead
   m_TagString: Untagged
@@ -182,8 +167,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &8761837379047725227
-CapsuleCollider:
+--- !u!65 &5566341556783891901
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -192,10 +177,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 5}
+  m_Center: {x: 0.000000029802337, y: 0, z: -1}
 --- !u!1 &8761837379192639008
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,7 +191,6 @@ GameObject:
   - component: {fileID: 8761837379192639011}
   - component: {fileID: 8761837379192639020}
   - component: {fileID: 8761837379192639021}
-  - component: {fileID: 8761837379192639010}
   m_Layer: 0
   m_Name: MalletHeadSide
   m_TagString: Untagged
@@ -280,20 +263,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &8761837379192639010
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8761837379192639008}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &8761837379858394244
 GameObject:
   m_ObjectHideFlags: 0
