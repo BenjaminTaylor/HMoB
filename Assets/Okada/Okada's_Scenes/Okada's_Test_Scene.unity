@@ -542,6 +542,20 @@ MonoBehaviour:
   MalletHeadHeight: 2.4
   BoardLowerBoundingLimit: {x: -7, y: -7}
   BoardUpperBoundingLimit: {x: 7, y: 14}
+--- !u!114 &1500707712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500707709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d3005171bf0fc4b8af7f6ecc56cc16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ballRb: {fileID: 1502706066}
+  _force: 10
 --- !u!1001 &1502706065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -555,7 +569,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3aa4fd5c72f1f444285a9f3f4e6e39c6, type: 2}
     - target: {fileID: 391486392549595206, guid: f9b5917a197fc8d488ef2637d5c6951b, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 391486392549595206, guid: f9b5917a197fc8d488ef2637d5c6951b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -601,16 +615,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_Ball_Blue
       objectReference: {fileID: 0}
-    - target: {fileID: 5079264963045041441, guid: f9b5917a197fc8d488ef2637d5c6951b, type: 3}
-      propertyPath: m_Mass
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5079264963045041441, guid: f9b5917a197fc8d488ef2637d5c6951b, type: 3}
-      propertyPath: m_AngularDrag
-      value: 0.001
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9b5917a197fc8d488ef2637d5c6951b, type: 3}
+--- !u!54 &1502706066 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 5079264963045041441, guid: f9b5917a197fc8d488ef2637d5c6951b, type: 3}
+  m_PrefabInstance: {fileID: 1502706065}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1521902568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,7 +1150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8761837379858394247, guid: 5afbb3fcf55b5864b9d1fcd0b2bd2ed8, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8761837379858394247, guid: 5afbb3fcf55b5864b9d1fcd0b2bd2ed8, type: 3}
       propertyPath: m_LocalPosition.x
