@@ -24,10 +24,12 @@ public class UIScoreCounterX : MonoBehaviour
     #region public static
 
     /// <summary> Variables for saving scores in game</summary>
-    public static int _currentScore;
+    public static float _currentScore;
 
     #endregion
 
+    public GameObject ball;
+    public Vector3 ballResetPosition;
 
     void Start()
     {
@@ -47,5 +49,18 @@ public class UIScoreCounterX : MonoBehaviour
 
         _scoreUI.text = _currentScore.ToString();
 
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        //Check for a match with the specified name on any GameObject that collides with your GameObject
+        if (collision.gameObject.name == "Player_Ball_Blue")
+        {
+            ball.transform.position = ballResetPosition;
+            _currentScore += 0.5f;
+            
+            _scoreUI.text = _currentScore.ToString();
+
+        }
     }
 }
