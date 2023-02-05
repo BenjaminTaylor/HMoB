@@ -8,7 +8,7 @@ using TMPro;
 /// This is UItimer script.
 /// </summary>
 
-public class UITimer : MonoBehaviour
+public class UITimerX : MonoBehaviour
 {
     /// <summary> Variable for TimerTextUI</summary>
     [SerializeField, Header("TimerUIText")] TextMeshProUGUI _timerText;

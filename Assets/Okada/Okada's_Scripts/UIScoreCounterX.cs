@@ -4,11 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+
 /// <summary>
 /// This is a UI related script.
 /// </summary>
 
-public class UIScoreCounter : MonoBehaviour
+public class UIScoreCounterX : MonoBehaviour
 {
     #region private SerializeField
 
@@ -16,7 +17,7 @@ public class UIScoreCounter : MonoBehaviour
     [SerializeField, Header("ScoreUI")] TextMeshProUGUI _scoreUI;
 
     /// <summary> Score at start</summary>
-    [SerializeField, Header("Score in Play")]  int _startScore;
+    [SerializeField, Header("Score in Play")] int _startScore;
 
     #endregion
 
@@ -36,8 +37,8 @@ public class UIScoreCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        
+
+
     }
 
     void SetScore()
