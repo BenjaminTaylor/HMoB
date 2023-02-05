@@ -6,7 +6,7 @@ using UnityEngine;
 /// This is a script that places the ball in position at the play's start.
 /// </summary>
 
-public class BallStart : MonoBehaviour
+/*public class BallStart : MonoBehaviour
 {
     /// <summary>  Vector3 for ball in the position </summary>
     [SerializeField, Header(" Start Position")] Vector3 _ballStartPosition;
@@ -23,3 +23,4 @@ public class BallStart : MonoBehaviour
         transform.position = _ballStartPosition;
     }
 }
+*/
